@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>El tio ricardio y su sobrino mortadelo</title>
+  </head>
+  <body>
+      <header class = "container-fluid bg-dark">
+        <div class="row">
+            <div class = "col-8 col-md-4 mx-auto">
+                <img src="img/logo.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Rick y Morty</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Personajes</a>
+                          <a class="nav-link" href="#">Ubicaciones</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+      </header>
+      <main class = "container-fluid">
+        <div id="contenedor-personajes" class="row mt-5">
+            
+        </div>
+      </main>
+
+      <div id="moldes">
+        <div class="col-12 col-md-6 col-lg-4 molde-personaje">
+            <div class="card">
+                <div class="card-header bg-dark bg-gradient text-center text-white">
+                    <span class ="nombre-personaje">Nombre del personaje</span>
+                </div>
+                <div class="card-body text-center">
+                    <img src="img/rick.jpg" class ="img-fluid imagen-personaje">
+                </div>
+                <div class="card-footer d-grid gap-1">
+                    <button class = "btn btn-info btn-ver-personaje">Ver personaje    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="molde-detalle">
+          <div class="row">
+              <div class="col">
+                  <h3 class = "nombre-sa-personaje">Nombre Personaje</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <img class = "imagen-sa-personaje" src="" alt="">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <i class = "estado-sa-personaje">Estado</i>
+              </div>
+          </div>
+      </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
